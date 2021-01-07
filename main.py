@@ -1,6 +1,4 @@
-#Var rakstīt komentārus
-#vairākās
-#rindās"""
+
 print("Sveika pasaule!")
 print(2*2)
 print(2*2, 2*3, 2*4,"Pitons")
