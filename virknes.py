@@ -21,7 +21,7 @@ print("sveiki")
 print(" I am going on a run")
 print('Arī šis ir "risinājums"')
 print("Sveika,\npasaule!") #izdrukā divās rindās
-print("Sveika, \tpasule") #izdrukā ar tabulācijas atkāpi
+print("Sveika, \tpasaule") #izdrukā ar tabulācijas atkāpi
 
 #String garums - len()
 print(len("sveiki"))
@@ -35,3 +35,14 @@ print(myString[8]) #izdrukā 9. rakstzīmi
 print(myString[13]) #izdrukā 14. rakstzīmi
 print(myString[-3]) #izdrukā 14. rakstzīmi
 print(myString[-1]) #izdrukā pēdejo rakstzīmi
+
+myString="abcdefghijklmnoprstuvz"
+print(myString)
+print(myString[2]) #izdrukā c
+print(myString[2:]) #izdrukā no c uz priekšu
+print(myString[:3]) #izdrukā līdz 2. indeksam (neietver galapunktu)
+print(myString[3:6]) #izdrukā no 4 līdz 6 
+print(myString[::2]) #izdrukā katru otro jeb ar soli 2
+print(myString[2:7:2]) #izdrukā n0 3. rakstzīmes (2.indekss) līdz 7. rakstzīmei katru otro
+print(myString[::-1]) #izdrukā otrā virzienā
+
