@@ -45,3 +45,13 @@ print(new_dict)
 print(new_dict.keys())  #izdrukā atslēgas
 print(new_dict.values())  #izdrukā vērtības
 print(new_dict.items())  #izdrukā pārus
+vertibu_list = list(new_dict.values())  #pārveido vērtības par list
+print(vertibu_list)
+print(new_dict.get("k1"))  #get() - izdod norādītās atslēgas vērtību
+print(new_dict)
+print(new_dict.pop("k1"))  #pop() - izņem elementu ar norādīto atslēgu
+print(new_dict)
+new_dict.update({"k4": 9})  #update() - pievieno jaunu elementu pāri
+print(new_dict)
+new_dict.clear()  #clear() - nodzēša/notīra saturu
+print(new_dict)
