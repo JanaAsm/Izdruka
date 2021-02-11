@@ -1,2 +1,2 @@
-import citi_datu_tipi
+import zarosanas
 
