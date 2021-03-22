@@ -1,2 +1,2 @@
-import uz_par_cikliem
+import noderigi_operatori
 
