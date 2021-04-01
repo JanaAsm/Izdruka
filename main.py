@@ -1,2 +1,2 @@
-import noderigi_operatori
+import funkc_return
 
