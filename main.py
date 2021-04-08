@@ -1,2 +1,2 @@
-import funkc_return
+import funkc_uzd
 
