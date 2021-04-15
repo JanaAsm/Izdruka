@@ -1,2 +1,2 @@
-import funkc_uzd
+import funkc_spele
 

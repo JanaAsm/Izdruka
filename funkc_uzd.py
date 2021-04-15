@@ -27,3 +27,36 @@ def sum_double(a, b):
     return 2 * (a + b)
   else:
     return a+b            
+
+#4. uzdevums
+def modulis(n):
+    if n>21:
+        starpiba=n-21
+    else:
+        starpiba=21-n
+    if starpiba>21:
+        return starpiba*2
+    return starpiba
+
+print(modulis(3))   
+
+
+#5. uzdevums
+def papagaila_problema(runaja, laiks):
+        if runaja == True and laiks < 7 == True or laiks > 20 == True:
+            return(True)
+
+
+
+def papagaila_problema(runa, laiks):
+    if(runa and (laiks<7 or laiks>20)):
+        print("True")
+    else:
+        print("False")
+
+
+
+
+
+
+
